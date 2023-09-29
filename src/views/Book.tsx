@@ -114,7 +114,6 @@ const Books = () => {
                 />
             </div>
             <Table
-                setDataBooks={setDataBooks}
                 dataBooks={valueSearch ? dataFilter : dataBooks}
                 loading={loading}
                 error={error}
